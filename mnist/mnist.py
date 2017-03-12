@@ -1,3 +1,5 @@
+# Softmax classfier
+
 import tensorflow as tf
 
 from tensorflow.examples.tutorials.mnist import input_data
@@ -32,7 +34,7 @@ sess = tf.Session()
 sess.run(init)
 
 # learning
-for i in range(1000):
+for i in range(10000):
   batch_xs, batch_ys = mnist.train.next_batch(100)
   sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 
