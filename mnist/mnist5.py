@@ -3,7 +3,8 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 
-batch_size = 128
+training_epochs = 15
+batch_size = 100
 test_size = 256
 
 def init_weights(shape):
@@ -64,15 +65,20 @@ init = tf.initialize_all_variables()
 with tf.Session() as sess:
 	sess.run(init)
 
-	for i in range(100):
+	for i in range(training_epochs):
+		avg_cost = 0.
 		training_batch = zip(range(0, len(trX), batch_size), range(batch_size, len(trX)+1, batch_size))
 
 		for start, end in training_batch:
 			sess.run(train_op, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})
+			avg_cost += sess.run(cost, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})/batch_size
+		print "Epoch:", '%04d' % (i+1), "cost=", "{:.9f}".format(avg_cost)
 
-		test_indices = np.arange(len(teX))
-		np.random.shuffle(test_indices)
-		test_indices = test_indices[0:test_size]
+	print "Optimization Finished!"
 
-		print(i, np.mean(np.argmax(teY[test_indices], axis=1) == sess.run(predict_op, feed_dict={X: teX[test_indices], p_keep_conv: 1.0, p_keep_hidden: 1.0})))
+	test_indices = np.arange(len(teX))
+	np.random.shuffle(test_indices)
+	test_indices = test_indices[0:test_size]
+
+	print "Accuracy:", np.mean(np.argmax(teY[test_indices], axis=1) == sess.run(predict_op, feed_dict={X: teX[test_indices], p_keep_conv: 1.0, p_keep_hidden: 1.0}))
 
