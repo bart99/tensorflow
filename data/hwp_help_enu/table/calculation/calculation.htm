@@ -1,0 +1,79 @@
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+
+<script type="text/javascript" src="../../expcol.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>Formula</title>
+<meta http-equiv="content-type" content="text/html; charset=ks_c_5601-1987">
+ <meta name="generator" content="Adobe RoboHelp 10">
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+<td width="99%" class="Bg02">
+<h1>Formula</h1>
+</td>
+</tr>
+<tr>
+<td class="Bg03">&#160;</td>
+<td class="Bg04" align="right">
+<p class="ui-path">Table &gt; Formula</p>
+</td>
+</tr>
+</table>
+<p class="intro">You can use basic arithmetic functions such as add, subtract, multiply, and divide, as well as sheet functions, such as sum and average and formulas containing left, right, below, and above range designators such as sum(left) in tables.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Steps</h2>
+<ol>
+<li>Click <b>Insert</b> &gt; <b>Table</b> &gt; <b>Insert Table</b>, and then enter values in the cells.</li>
+<li>Place the pointer on the cell in which the result of the calculation must be displayed, and then click <b>Table</b> &gt; <b>Formula</b>.
+<p class="bullet-list">For example, place the cursor in the cell located on row 5, column 1, and then click <b>Table</b> &gt; <b>Formula</b>.</p>
+<p class="img01"><img src="../../images/7t25_023.gif" border="0" alt=""></p>
+</li>
+<li>In the <b>Formula</b> dialog box, click <b>Function</b>, and then select the <b>PRODUCT(..)</b> function.</li>
+<li>The <b>PRODUCT()</b> is entered in the <b>Formula</b> field automatically, and the cursor is displayed inside the parentheses.</li>
+<li>Type <b>B1</b>, a comma (,), and then <b>C3</b>, inside the parentheses.
+<p class="bullet-list"><b>PRODUCT(B1,C3)</b> must be entered in the <b>Formula</b> field.</p>
+</li>
+<li>Click <b>OK</b>, and then enter the calculation result in the cell.
+<p class="bullet-list">2 ×10 is calculated, and <b>20</b> is displayed as the result.</p>
+<p class="img01"><img src="../../images/7t25_024.gif" border="0" alt=""></p>
+</li>
+</ol>
+<h2><img src="../../images/dot.gif" border="0" alt=""> More Information</h2>
+<h4><b>Formula</b> Dialog Box</h4>
+<h3>Formula</h3>
+<p>A function selected from the <b>Function</b> list is automatically entered. You can also enter a basic arithmetic function (+ - * /), the sum function, or the average function directly into formula field.</p>
+<p>To type a formula directly into the formula field, use the prefix <b>=</b> or <b>@</b>, before entering the sheet function.</p>
+<h3>Function</h3>
+<p>Click on list, and then select a sheet function. The function is automatically entered into the <b>Formula</b> field.</p>
+<h3>Quick Selection</h3>
+<p>You can select <b>LEFT</b> for farthest left to the current cell, <b>RIGHT</b> for farthest right to the current cell, <b>ABOVE</b> for topmost to the current cell, and <b>BELOW</b> for bottommost to the current cell.</p>
+<h3>Format</h3>
+<p>You can specify the result display format. Select from <b>Default Format</b>, <b>Integral Numbers</b>, <b>1 Decimal</b>, <b>2 Decimal</b>, <b>3 Decimal</b>, and <b>4 Decimal</b>.</p>
+<h3>Thousands Separator</h3>
+<p>If you select this option, a comma (,) is placed after each group of three digits in the calculation result.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Note</h2>
+<h3>Cell Number</h3>
+<p>When the pointer is moved from one cell to another, the name of the cell is displayed on the <a href="../../view/status_bar.htm">Status Bar</a> in the form of A1, A2, A3, and so on. The columns are designated in the order of A, B, C, D, E, and so on, and the rows in the order of 1, 2, 3, 4, 5, and so on.</p>
+<p>When creating a formula in a table, use the cell names instead of directly typing in the contents of the corresponding cells.</p>
+<p class="img02"><img src="../../images/7t25_020.gif" border="0" alt=""></p>
+<h3>Cell Separator</h3>
+<p>After entering a sheet function in the <b>Formula</b> field, you must enter the names of the cells inside the parentheses.</p>
+<p>You can separate cell names inside the parentheses by using commas (,) or (colons). A comma is used to obtain the sum of the specified cells, whereas a colon is used to specify the start and end cells, and obtain the sum of all cells within the range.</p>
+<p>For example, type in <b>=SUM(A1,C1)</b> if you wish to obtain the sum of A1 and C1. If you wish to obtain the sum of all cells from A1 to C1, type <b>=SUM(A1:C1)</b>.</p>
+<h3>Recalculating Formula</h3>
+<p>If you modify the cell content you used in <b>Formula</b>, the result gets applied automatically. If you modify the result, recalculation does not occur until you modify the cell content you used in <b>Formula</b> or modify the formula.</p>
+<h3>Using Field Name</h3>
+<p>If you use <a href="../tableattribute/table(fieldname).htm"><b>Field Name</b></a> in the formula, you can only use <b>Quick Selection</b>, and the <b>ALL</b> function. After Quick Selection of ALL function, type a colon (:), and then enter the field name.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> See Also</h2>
+<p class="related-link"><a href="../table.htm">Insert Table</a></p>
+<p class="footer"><a href="http://www.hancom.com/en" target="_blank">www.hancom.com/en</a></p>
+</body>
+</html>

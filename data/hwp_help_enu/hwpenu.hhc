@@ -1,0 +1,2049 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800025">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Introduction to Thinkfree Office NEO Hwp">
+    <param name="Local" value="hwp/hwp(intro).htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Hwp User Guide">
+      <param name="Local" value="hwpbase/action(hwp).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Screen Layout">
+        <param name="Local" value="hwpbase/screen.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color Palette">
+        <param name="Local" value="format/color_picker.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Selecting Other Colors">
+          <param name="Local" value="format/color_dialog.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Spuit">
+          <param name="Local" value="format/color_picker(eyedropper).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Keyboard Toolbar">
+        <param name="Local" value="hwpbase/keyboard(toolbar).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dialog Box Settings Configuration">
+        <param name="Local" value="hwpbase/dialogsetting.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Dialog Box Transparency">
+        <param name="Local" value="hwp/hwp(dialogtransparencysetting).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Shortcut Table">
+        <param name="Local" value="view/toolbar/shortcut(table).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Hancom Configuration Utility">
+        <param name="Local" value="hwpbase/options(hncsetup).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Hancom Update">
+        <param name="Local" value="hwpbase/update.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Increasing Accessibility">
+        <param name="Local" value="hwpbase/accessibility.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Introduction to Help">
+        <param name="Local" value="hwpbase/help(usage).htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="File">
+    <param name="Local" value="menu/file.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="New">
+      <param name="Local" value="file/new.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="New Tab">
+        <param name="Local" value="file/new_tab.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Templates">
+        <param name="Local" value="file/madang/madang(madang).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Templates: Recent Document Templates">
+          <param name="Local" value="file/madang/madang(recently).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Templates: Document Templates Package">
+          <param name="Local" value="file/madang/madang(control).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Templates: Find Template">
+          <param name="Local" value="file/madang/madang(finding_files).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Word Document">
+        <param name="Local" value="file/new/open_docx.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cell Document">
+        <param name="Local" value="file/new/open_nxl.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Show Document">
+        <param name="Local" value="file/new/open_hpt.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Compatible Document">
+      <param name="Local" value="file/document_compatible/document(compatible).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="XML Document">
+      <param name="Local" value="file/xml_document.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="XML Tab">
+        <param name="Local" value="toolbox/state_XML.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create XML Templates">
+        <param name="Local" value="file/xml_document/xml(form_make).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="XML Templates">
+        <param name="Local" value="file/xml_document/xml(form_madang).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Open XML Document">
+        <param name="Local" value="file/xml_document/xml(open).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save XML Document">
+        <param name="Local" value="file/xml_document/xml(save).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="XML Validation">
+        <param name="Local" value="file/xml_document/xml(inspection).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Open">
+      <param name="Local" value="file/open/open.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Opening Different File Types">
+        <param name="Local" value="file/open/open(other).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Open from Netffice 24">
+        <param name="Local" value="file/open/open(thinkfree).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Convert PDF to Office Document">
+      <param name="Local" value="file/open/open(pdf).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Close">
+      <param name="Local" value="file/close.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Save">
+      <param name="Local" value="file/save/save.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Save As">
+      <param name="Local" value="file/save_as/save_as.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Storage Settings">
+        <param name="Local" value="file/save_as/save_as(options).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save to Netffice">
+        <param name="Local" value="file/save/save(thinkfree).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save to Internet Folder">
+        <param name="Local" value="file/save/save(webdav).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save Block">
+        <param name="Local" value="file/save/save(block).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Finder">
+      <param name="Local" value="file/finding_files/finding_files.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Security">
+      <param name="Local" value="file/password/password_main.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Password">
+        <param name="Local" value="file/password/password.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change/Remove">
+        <param name="Local" value="file/password/password(cancel).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Protect Private Info">
+        <param name="Local" value="security/user_info_security/user_info_security.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Protect Selected Character">
+          <param name="Local" value="security/user_info_security/security(promptly_hide).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Search/Replace">
+          <param name="Local" value="security/user_info_security/security(search_hide).htm">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Settings">
+            <param name="Local" value="security/user_info_protection/protection(user_info_option).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Select Pattern">
+            <param name="Local" value="security/user_info_protection/protection(format).htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Remove Protection">
+          <param name="Local" value="security/user_info_security/security(again_view).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Change Password">
+          <param name="Local" value="security/user_info_security/security(password).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Info">
+      <param name="Local" value="file/document_properties/document_properties.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: Normal">
+        <param name="Local" value="file/document_properties/document_general.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: Summary">
+        <param name="Local" value="file/document_properties/document_summary.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: Statistics">
+        <param name="Local" value="file/document_properties/document_statistics.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: Font Detail">
+        <param name="Local" value="file/document_properties/document_fontinfo.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: Picture Info">
+        <param name="Local" value="file/document_properties/document_figureinfo.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Info: License">
+        <param name="Local" value="file/document_properties/document_license.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Print">
+      <param name="Local" value="file/print/print.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Print: Basic">
+        <param name="Local" value="file/print/print_general.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Print: Advanced">
+        <param name="Local" value="file/print/print_expanded.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Header/Footer for Printing">
+          <param name="Local" value="file/print/auto_content.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Print: Watermark">
+        <param name="Local" value="file/print/print_watermark.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Preview">
+      <param name="Local" value="file/preview/preview.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Preview Tab">
+        <param name="Local" value="file/preview/preview_toolbar.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Setup">
+      <param name="Local" value="format/setting_paper/setting_paper.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Page Setup: Basic">
+        <param name="Local" value="format/setting_paper/setting_paper(general).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Page Setup: Line Grid">
+        <param name="Local" value="format/setting_paper/setting_paper(grid).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Log in to/Log out from Netffice 24">
+      <param name="Local" value="file/file_netffice24.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="SNS Service">
+      <param name="Local" value="tools/sns_sevice.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Upload to Twitter">
+        <param name="Local" value="tools/twitter/twitter(up).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Upload to Facebook">
+        <param name="Local" value="tools/facebook/facebook(up).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manage SNS Accounts">
+        <param name="Local" value="tools/manage_sns_account.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Register SNS Account">
+          <param name="Local" value="tools/register_sns_account.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Edit SNS Account">
+          <param name="Local" value="tools/edit_sns_account.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Publish to Blog">
+        <param name="Local" value="tools/blog/blog(up).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Publish to Blog as a Draft">
+        <param name="Local" value="tools/blog/blog(draft).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manage Blog Accounts">
+        <param name="Local" value="tools/blog/blog(account).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="DAISY Document">
+      <param name="Local" value="file/daisy_document.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Save/Send To">
+      <param name="Local" value="file/send_to_mail/send_to_mail.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Send Mail (Body Text)">
+        <param name="Local" value="file/send_to_mail/as_text.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Send Mail (Attachment)">
+        <param name="Local" value="file/send_to_mail/attached_file.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Send to Web Browser">
+        <param name="Local" value="file/send_to_mail/to_web.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Upload to Web Server">
+        <param name="Local" value="file/send_to_mail/to_web_server.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save as Picture">
+        <param name="Local" value="file/send_to_mail/to_graphic.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save as PDF">
+        <param name="Local" value="file/to_pdf.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Language Settings">
+      <param name="Local" value="tools/display_language.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customize">
+      <param name="Local" value="view/toolbar/toolbar(edit).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize: Toolbar">
+        <param name="Local" value="view/toolbar/user_setting(toolbar).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize: Shortcuts">
+        <param name="Local" value="view/toolbar/user_setting(shortcut).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize: Menu">
+        <param name="Local" value="view/toolbar/user_setting(menu).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize: Command">
+        <param name="Local" value="view/toolbar/user_setting(command).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize: Toolbox">
+        <param name="Local" value="view/toolbar/user_setting(toolbox).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Options">
+      <param name="Local" value="file/options/options.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: Edit">
+        <param name="Local" value="file/options/options(edit).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: File">
+        <param name="Local" value="file/options/options(file).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: General">
+        <param name="Local" value="file/options/options(userinfo).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: Fonts">
+        <param name="Local" value="file/options/options(font).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Frequently Used Fonts">
+          <param name="Local" value="file/options/options(font_frequent).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Representation Fonts">
+          <param name="Local" value="file/options/options(font_set).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Font List Setup">
+          <param name="Local" value="tool/options_font(set).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: New Document">
+        <param name="Local" value="file/options/options(newpaper).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: Code Format">
+        <param name="Local" value="file/options/options(code).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: Object">
+        <param name="Local" value="file/options/options(object).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options: Others">
+        <param name="Local" value="file/options/options(etc).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delete Search Records">
+          <param name="Local" value="file/options/options(filelistdeletion).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Exit">
+      <param name="Local" value="file/exit.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Home">
+    <param name="Local" value="menu/home.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Undo">
+      <param name="Local" value="edit/undo.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Redo">
+      <param name="Local" value="edit/redo.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Cut">
+      <param name="Local" value="edit/cut.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Copy">
+      <param name="Local" value="edit/copy.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Paste">
+      <param name="Local" value="edit/paste.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paste HTML Document">
+        <param name="Local" value="edit/paste(html).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paste Cell">
+        <param name="Local" value="table/table(paste).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paste Special">
+        <param name="Local" value="edit/paste(select).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Format Painter">
+      <param name="Local" value="format/quick_format/quick_format.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Delete Control Codes">
+      <param name="Local" value="edit/erase_code.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Select All">
+      <param name="Local" value="edit/select_all.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Find">
+      <param name="Local" value="edit/find/find_intro.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find">
+        <param name="Local" value="edit/find/find.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Options">
+          <param name="Local" value="edit/find/find(options).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Format">
+          <param name="Local" value="edit/find/find(format).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find All">
+          <param name="Local" value="edit/find/find(findall).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Again">
+          <param name="Local" value="edit/find_again.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Replace">
+        <param name="Local" value="edit/replace_with.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Go to">
+        <param name="Local" value="edit/go_to/go_to.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Font">
+      <param name="Local" value="format/font/fonts.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Font: Basic">
+        <param name="Local" value="format/font/fonts_general.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Font: Advanced">
+        <param name="Local" value="format/font/fonts_expanded.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Font: Border/Background">
+        <param name="Local" value="format/font/fonts_border.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Paragraph">
+      <param name="Local" value="format/paragraph/paragraph.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paragraph: Basic">
+        <param name="Local" value="format/paragraph/paragraph_general.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paragraph: Advanced">
+        <param name="Local" value="format/paragraph/paragraph_expanded.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paragraph: Tab Settings">
+        <param name="Local" value="format/paragraph/paragraph_tab.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tab Settings">
+          <param name="Local" value="format/paragraph/paragraph(tab).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paragraph: Border/Background">
+        <param name="Local" value="format/paragraph/paragraph_border.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Numbering">
+      <param name="Local" value="format/numberbullet/numberbullet(main).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Numbering/Bullets: Numbering">
+        <param name="Local" value="format/numberbullet/numberbullet(paragraph_number).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Numbering Styles">
+          <param name="Local" value="format/numberbullet/numberbullet(form).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Numbering/Bullets: Bullets">
+        <param name="Local" value="format/numberbullet/numberbullet(bullet).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Bullet Styles">
+          <param name="Local" value="format/numberbullet/bullet(form).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Numbering/Bullets: Image Bullets">
+        <param name="Local" value="format/numberbullet/numberbullet(imagebullet).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Image Bullet Styles">
+          <param name="Local" value="format/numberbullet/imagebullet(form).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Multilevel List">
+      <param name="Local" value="format/outline/outline_numbering(paragraph_number).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Numbering Starts by">
+        <param name="Local" value="format/outline/outline_numbering(new_number).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Multilevel List Style">
+        <param name="Local" value="format/outline/outline_numbering(form).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Toggle Multilevel List">
+      <param name="Local" value="format/outline/outline_numbering(attributes_cancel).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Promoting/Demoting Level">
+      <param name="Local" value="format/outline/outline_numbering(depth).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Change Case">
+      <param name="Local" value="edit/change_characters/change_text.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change Case">
+        <param name="Local" value="edit/change_characters/change_case.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change Half-width/Full-width">
+        <param name="Local" value="edit/change_characters/change_width.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Phonetic Guide">
+      <param name="Local" value="insert/addsummary.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Enclose Characters">
+      <param name="Local" value="insert/overtype/overtype.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Horizontal Line">
+      <param name="Local" value="insert/line.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Sort">
+      <param name="Local" value="tools/sort/sort.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Styles">
+      <param name="Local" value="format/style/style.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add Style">
+        <param name="Local" value="format/style/style(new).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Export Styles">
+        <param name="Local" value="format/style/style(new_style).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Applying Styles">
+        <param name="Local" value="format/style/style(apply).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Normal Style">
+        <param name="Local" value="format/style/style(base).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Style Templates">
+      <param name="Local" value="format/style_templates/style_templates.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Properties">
+      <param name="Local" value="insert/objectattribute/objectattribute.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Basic">
+        <param name="Local" value="insert/objectattribute/objectattribute(general).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Margin/Caption">
+        <param name="Local" value="insert/objectattribute/objectattribute(outblank).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Lines">
+        <param name="Local" value="insert/objectattribute/objectattribute(line).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Fill">
+        <param name="Local" value="insert/objectattribute/objectattribute(face).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Text Box">
+        <param name="Local" value="insert/objectattribute/objectattribute(textbox).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Shadow">
+        <param name="Local" value="format/objectattr/objectattr_shadow.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Reflection">
+        <param name="Local" value="format/objectattr/objectattr_reflect.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Neon">
+        <param name="Local" value="format/objectattr/objectattr_glow.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Soft Edges">
+        <param name="Local" value="format/objectattr/objectattr_softedge.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Picture">
+        <param name="Local" value="insert/objectattribute/objectattribute(figure).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Equation">
+        <param name="Local" value="insert/objectattribute/objectattribute(equation).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: Wordshop">
+        <param name="Local" value="insert/objectattribute/objectattribute(hmapsi).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Properties: OLE Properties">
+        <param name="Local" value="insert/objectattribute/objectattribute(ole).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Object Properties">
+      <param name="Local" value="edit/modification.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="OLE Connection">
+      <param name="Local" value="edit/objectlink.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="OLE Properties">
+      <param name="Local" value="edit/objecedit.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Insert/Modify">
+      <param name="Local" value="edit/insert.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Print 3D Text">
+      <param name="Local" value="tools/3d_text.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Insert">
+    <param name="Local" value="menu/insert.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Break">
+      <param name="Local" value="format/break/page_break.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Table">
+      <param name="Local" value="table/table(table).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Insert Table">
+        <param name="Local" value="table/table(make).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw Table">
+        <param name="Local" value="table/table(draw).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Text to Table">
+        <param name="Local" value="table/table(to_table).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Quick Tables">
+        <param name="Local" value="table/tablemadang/tablemadang.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table Tools Tab">
+        <param name="Local" value="toolbox/object_table.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Illustrations">
+      <param name="Local" value="insert/object.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Picture">
+        <param name="Local" value="insert/figure/figure.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Picture Tools Tab">
+          <param name="Local" value="toolbox/object_picture.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Edit with Photo">
+          <param name="Local" value="toolbox/photo_editor.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Picture Path">
+          <param name="Local" value="insert/figure/figure(picture_path).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Shapes">
+        <param name="Local" value="draw/drawing(polygon).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Drawing Tools Tab">
+          <param name="Local" value="toolbox/object_shapeobject.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wordshop">
+        <param name="Local" value="insert/hmapsi/hmapsi(mapsi).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Wordshop Tools Tab">
+          <param name="Local" value="toolbox/object_hmapsi.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Chart">
+        <param name="Local" value="table/chart/chart(createchart).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Chart Tools Tab">
+          <param name="Local" value="toolbox/object_chart.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Using Charts">
+          <param name="Local" value="table/chart/chart(usechart).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Video">
+        <param name="Local" value="insert/video.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Flash">
+        <param name="Local" value="insert/flash.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sound">
+        <param name="Local" value="insert/wave.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Clip Art">
+        <param name="Local" value="insert/drawmadang/drawmadang.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clip Art: Shapes">
+          <param name="Local" value="insert/drawmadang/drawmadang(control).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clip Art: Shared Clip Art">
+          <param name="Local" value="insert/drawmadang/drawmadang(clipart).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clip Art: Recent Clip Arts">
+          <param name="Local" value="insert/drawmadang/drawmadang(recently).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clip Art: Search Results">
+          <param name="Local" value="insert/drawmadang/drawmadang(find).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add to Clip Art">
+          <param name="Local" value="insert/drawmadang/drawmadang(newreg).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Drawing Object">
+        <param name="Local" value="insert/drawing_object.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Screenshot">
+        <param name="Local" value="insert/screenshot.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Form Controls">
+      <param name="Local" value="view/toolbar/toolbar(form_object).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Form Controls Tab">
+        <param name="Local" value="toolbox/object_from_object.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Equation">
+      <param name="Local" value="insert/equation/equation.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Considerations for Editing Equations">
+        <param name="Local" value="insert/equation/equation(rule).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Equation Fonts and Basic Functions">
+        <param name="Local" value="insert/equation/equation(font).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Description of Equation Commands">
+        <param name="Local" value="insert/equation/equation(explanation).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Equation Commands List">
+        <param name="Local" value="insert/equation/equation(script).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Entering Equation Symbols">
+        <param name="Local" value="insert/equation/equation(symbol).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Equation Toolbox">
+        <param name="Local" value="insert/equation/equation(toolbar).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Symbol">
+      <param name="Local" value="insert/character_set.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol: Custom">
+        <param name="Local" value="insert/character_set/character_set(user).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol: Unicode">
+        <param name="Local" value="insert/character_set/character_set(unicode).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add to Custom Symbol">
+        <param name="Local" value="insert/character_set/character_set(to_user).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Inserting Foreign Characters">
+        <param name="Local" value="insert/europe.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Fill">
+      <param name="Local" value="table/autofill/table(autofill)_main.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table AutoFill">
+        <param name="Local" value="table/autofill/table(autofill).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="AutoFill Content">
+        <param name="Local" value="table/autofill/table(autofill_content).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoFill Content: Default">
+          <param name="Local" value="table/autofill/table(autofill_content)_general.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoFill Content: Custom">
+          <param name="Local" value="table/autofill/table(autofill_content)_custom.htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Hyperlink">
+      <param name="Local" value="insert/hyperlink/hyperlink.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Linking to Hanword Document">
+        <param name="Local" value="insert/hyperlink/hyperlink(hwp).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Linking to Web Address">
+        <param name="Local" value="insert/hyperlink/hyperlink(web).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Linking to E-mail Address">
+        <param name="Local" value="insert/hyperlink/hyperlink(email).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Linking to External Application Document">
+        <param name="Local" value="insert/hyperlink/hyperlink(application).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Bookmark">
+      <param name="Local" value="insert/bookmark/bookmark.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Header/Footer">
+      <param name="Local" value="format/header/header.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Header/Footer Tab">
+        <param name="Local" value="toolbox/state_header.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Numbering">
+      <param name="Local" value="format/pagenumber.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text Box">
+      <param name="Local" value="insert/textbox/textbox.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Text Box">
+        <param name="Local" value="insert/textbox/textbox(write_vertically).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Quick Parts">
+      <param name="Local" value="insert/quick_parts.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="AutoText">
+        <param name="Local" value="insert/autotext/autotext.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoText Content">
+          <param name="Local" value="insert/autotext/autotext(contents).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add AutoText">
+          <param name="Local" value="insert/autotext/autotext(register).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Field">
+        <param name="Local" value="insert/madanginfo/madanginfo.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Field: Click Here">
+          <param name="Local" value="insert/madanginfo/madanginfo(press).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Field: User Info">
+          <param name="Local" value="insert/madanginfo/madanginfo(user).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Field: Summary">
+          <param name="Local" value="insert/madanginfo/madanginfo(summary).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Field: Creation Date">
+          <param name="Local" value="insert/madanginfo/madanginfo(date).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Drop Cap">
+      <param name="Local" value="format/drop_cap/drop_cap.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Date/Time">
+      <param name="Local" value="insert/date/date.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Date/Time String">
+        <param name="Local" value="insert/date/date(document).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Date/Time Format">
+        <param name="Local" value="insert/date/date(format).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Date/Time Code">
+        <param name="Local" value="insert/date/date(code).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Insert File Name">
+        <param name="Local" value="insert/date/date(filename).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Contents from Document">
+      <param name="Local" value="insert/insert_file.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="OLE">
+      <param name="Local" value="insert/objectinsert.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="CCL">
+      <param name="Local" value="file/ccl.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Page Layout">
+    <param name="Local" value="menu/Page.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Setup">
+      <param name="Local" value="format/setting_paper/setting_paper.htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Page Setup: Basic">
+        <param name="Local" value="format/setting_paper/setting_paper(general).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Page Setup: Line Grid">
+        <param name="Local" value="format/setting_paper/setting_paper(grid).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text Direction">
+      <param name="Local" value="edit/text_direction.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Text Direction Options">
+        <param name="Local" value="format/vertical.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Break">
+      <param name="Local" value="format/break/page_break.htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Column Break">
+      <param name="Local" value="format/break/column_break.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Multiple Column Settings">
+      <param name="Local" value="format/columns/columns.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="New Column Settings">
+      <param name="Local" value="format/break/new_columns.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Section Settings">
+      <param name="Local" value="format/section/section.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Section Break">
+      <param name="Local" value="format/break/section_break.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Line Numbers">
+      <param name="Local" value="format/line_number.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Delete Page">
+      <param name="Local" value="format/remove_page.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Delete Current Page">
+        <param name="Local" value="format/remove_page_current.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Delete Page">
+        <param name="Local" value="format/remove_page_range.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Hide Current Page Only">
+      <param name="Local" value="format/hide.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Watermark">
+      <param name="Local" value="file/print/print_watermark.htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Background">
+      <param name="Local" value="format/pageborder/page_border(background).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Page Borders">
+      <param name="Local" value="format/pageborder/page_border(border).htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="References">
+    <param name="Local" value="menu/references.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Table of Contents">
+      <param name="Local" value="tools/index/toc.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table of Contents">
+        <param name="Local" value="tools/index/index(order).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Refresh TOC">
+        <param name="Local" value="tools/index/index(update).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mark as TOC">
+        <param name="Local" value="tools/index/title(mark).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Hide from TOC">
+        <param name="Local" value="tools/index/index(hide).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Footnotes">
+      <param name="Local" value="insert/annotations/annotations.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Notes Tab">
+        <param name="Local" value="toolbox/state_annotations.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Insert Footnote">
+        <param name="Local" value="insert/annotations/footnotes.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Insert Endnote">
+        <param name="Local" value="insert/annotations/endnotes.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Footnote/Endnote Styles">
+        <param name="Local" value="insert/annotations/annotations(format).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Note Style: Footnote Styles">
+          <param name="Local" value="insert/annotations/footnote_format.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Note Style: Endnote Styles">
+          <param name="Local" value="insert/annotations/endnote_format.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save Notes">
+        <param name="Local" value="insert/annotations/annotations(save).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Convert Footnotes/Endnotes">
+        <param name="Local" value="insert/annotations/annotations(change).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Insert Caption">
+      <param name="Local" value="insert/caption.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Index">
+      <param name="Local" value="tools/index/index.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mark Entry">
+        <param name="Local" value="tools/index/index(mark).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Insert Index">
+        <param name="Local" value="tools/index/index(make).htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Review">
+    <param name="Local" value="menu/review.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Spelling">
+      <param name="Local" value="tools/speller/spelling.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Various Functions of Spelling Checker">
+        <param name="Local" value="tools/speller/speller(functions).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Spelling Check/Proofing Settings">
+        <param name="Local" value="tools/speller/speller_setting.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Spelling Check/Proofing Settings: Options">
+          <param name="Local" value="tools/speller/speller(option).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="AutoCorrect">
+      <param name="Local" value="tools/qcorrect/qcorrect.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="AutoCorrect List">
+        <param name="Local" value="tools/qcorrect/qcorrect(content).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoCorrect List: AutoCorrect List">
+          <param name="Local" value="tools/qcorrect/qcorrect(dictionary).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoCorrect List: Typing Commands List">
+          <param name="Local" value="tools/automatic_action/automatic_action(dictionary).htm">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Add Typing Commands">
+            <param name="Local" value="tools/automatic_action/automatic_action.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AutoCorrect List: AutoFormat">
+          <param name="Local" value="tools/qcorrect/qcorrect(autocorrect).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Enable AutoCorrect">
+        <param name="Local" value="tools/qcorrect/qcorrect(active).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="AutoRun Typing Command">
+        <param name="Local" value="tools/automatic_action/automatic_action(action).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="AutoCorrect-Sound Effects">
+        <param name="Local" value="tools/qcorrect/qcorrect(wave).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Keyboard">
+      <param name="Local" value="insert/keyboard/keyboard.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change Keyboard">
+        <param name="Local" value="insert/keyboard/keyboard(change).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Keyboard Settings">
+          <param name="Local" value="insert/keyboard/keyboard(option).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View Keyboard Layout">
+        <param name="Local" value="insert/keyboard/keyboard(view).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create Keyboard">
+        <param name="Local" value="insert/keyboard/keyboard(make).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Language Options">
+        <param name="Local" value="insert/keyboard/keyboard(asia_option).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Translate">
+      <param name="Local" value="view/workwindow/workwindow(translation).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Track Changes">
+      <param name="Local" value="review/track_changes/track_changes.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change User Name">
+        <param name="Local" value="review/track_changes/track_changes(name).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Protect Changes">
+        <param name="Local" value="review/track_changes/track_changes(protect).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Change Tracking Options">
+      <param name="Local" value="review/track_changes/track_changes(options).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Labels">
+      <param name="Local" value="tools/label/label.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create Label Template">
+        <param name="Local" value="tools/label/label(label).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create Label Template: Recent Label Templates">
+          <param name="Local" value="tools/label/label(recently).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create Label Template: Label Template Package">
+          <param name="Local" value="tools/label/label(control).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add New Label Page">
+        <param name="Local" value="tools/label/label(addition).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Mail Merge">
+      <param name="Local" value="tools/mail_merge/mail_merge.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mark">
+        <param name="Local" value="tools/mail_merge/mail_merge(mark).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Start Mail Merge">
+        <param name="Local" value="tools/mail_merge/mail_merge(make).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Data Type">
+          <param name="Local" value="tools/mail_merge/mail_merge(data).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Output Direction">
+          <param name="Local" value="tools/mail_merge/mail_merge(output).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating Data File">
+        <param name="Local" value="tools/mail_merge/mail_merge(make_data).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Printing the Results of the Mail Merge">
+        <param name="Local" value="tools/mail_merge/mail_merge(label).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Comment">
+      <param name="Local" value="insert/memo/memo.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Comment">
+        <param name="Local" value="insert/memo/memo(insert).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Comments Tab">
+          <param name="Local" value="toolbox/object_memo.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Comment Style">
+        <param name="Local" value="insert/memo/memo(format).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Block Calculation">
+      <param name="Local" value="tools/blocksum/blocksum.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Replace Private Info">
+      <param name="Local" value="security/user_info_protection/user_info_protection.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Replace in Place">
+        <param name="Local" value="security/user_info_protection/protection(promptly_hide).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Search/Replace">
+        <param name="Local" value="security/user_info_protection/protection(search_hide).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Settings">
+          <param name="Local" value="security/user_info_protection/protection(user_info_option).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Select Pattern">
+          <param name="Local" value="security/user_info_protection/protection(format).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="View">
+    <param name="Local" value="menu/view.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Print Layout">
+      <param name="Local" value="view/page_outline.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Task Pane">
+      <param name="Local" value="view/workwindow/workwindow.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Task Pane View Settings">
+        <param name="Local" value="view/workwindow/workwindow(option).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Toolbar">
+      <param name="Local" value="view/toolbar/toolbar.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Standard Toolbar">
+        <param name="Local" value="view/toolbar/toolbar(base).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Home Tab">
+          <param name="Local" value="view/toolbar/menu_home.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Insert Tab">
+          <param name="Local" value="view/toolbar/menu_insert.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Page Layout Tab">
+          <param name="Local" value="view/toolbar/menu_page.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="References Tab">
+          <param name="Local" value="view/toolbar/menu_references.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Review Tab">
+          <param name="Local" value="view/toolbar/menu_review.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Tab">
+          <param name="Local" value="view/toolbar/menu_view.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Formatting Toolbar">
+        <param name="Local" value="view/toolbar_formatting.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize">
+        <param name="Local" value="view/toolbar/toolbar(edit).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Show/Hide">
+      <param name="Local" value="view/show_hide.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Hard Return">
+        <param name="Local" value="view/displaying_hard_return.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Control Codes">
+        <param name="Local" value="view/control_code.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Transparent Line">
+        <param name="Local" value="view/virtual_lines.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Image">
+        <param name="Local" value="view/displaying_figures.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Gridlines">
+      <param name="Local" value="view/grid/grid.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View Gridlines">
+        <param name="Local" value="view/grid/grid(displaying).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Gridlines Settings">
+        <param name="Local" value="view/grid/grid(options).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Window">
+      <param name="Local" value="view/document_window.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Tab">
+        <param name="Local" value="view/document_tab.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Status Bar">
+        <param name="Local" value="view/status_bar.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Horizontal Scroll Bar">
+        <param name="Local" value="view/scroll_bar/scroll_bar(horizon).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Scroll Bar">
+        <param name="Local" value="view/scroll_bar/scroll_bar(vertical).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Horizontal Ruler">
+        <param name="Local" value="view/ruler/ruler(horizon).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Ruler">
+        <param name="Local" value="view/ruler/ruler(vertical).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Document Window Style">
+        <param name="Local" value="view/document_window_option.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Object Guidelines">
+      <param name="Local" value="view/object_move_guideline/guideline(objectmoveguideline).htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Display Object Guidelines">
+        <param name="Local" value="view/object_move_guideline/objectguideline(view).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Object Guidelines Settings">
+        <param name="Local" value="view/object_move_guideline/objectguideline(settting).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Comments">
+      <param name="Local" value="view/memo.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Macros">
+      <param name="Local" value="tools/macro/macro.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Record Script Macros/Stop Recording">
+        <param name="Local" value="tools/macro/scriptdefinemacro.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Run Script Macros">
+        <param name="Local" value="tools/macro/scriptrunmacro.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Script Macro Security Settings">
+        <param name="Local" value="tools/macro/script_setsecurity.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Script Macro Security Settings: Security Level">
+          <param name="Local" value="tools/macro/script_setsecurity(level).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Script Macro Security Settings: Registered Objects">
+          <param name="Local" value="tools/macro/script_setsecurity(object).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Split Window">
+      <param name="Local" value="window/division/division.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Arrange Windows">
+      <param name="Local" value="window/arrange/arrange_windows.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Arrange Horizontally">
+        <param name="Local" value="window/arrange/windows(horizon).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Arrange Vertically">
+        <param name="Local" value="window/arrange/windows(vertical).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cascade">
+        <param name="Local" value="window/arrange/overlap_windows.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Minimize All">
+        <param name="Local" value="window/arrange/minimize_all.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Open Windows List">
+      <param name="Local" value="window/open_list.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Window List">
+      <param name="Local" value="window/windows_list.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Table">
+    <param name="Local" value="menu/table.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Draw Table">
+      <param name="Local" value="table/table(draw).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Insert Table">
+      <param name="Local" value="table/table(make).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Table/Cell Properties">
+      <param name="Local" value="table/tableattribute/tableattribute.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Basic">
+        <param name="Local" value="table/tableattribute/table(general).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Margin/Caption">
+        <param name="Local" value="table/tableattribute/table(outblank).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Borders">
+        <param name="Local" value="table/tableattribute/table(border).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Background">
+        <param name="Local" value="table/tableattribute/table(background).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Table">
+        <param name="Local" value="table/tableattribute/table(table).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table/Cell Properties: Cell">
+        <param name="Local" value="table/tableattribute/table(cellattribute).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Field Name">
+          <param name="Local" value="table/tableattribute/table(fieldname).htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Insert">
+      <param name="Local" value="table/table.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add Rows/Columns">
+        <param name="Local" value="table/table(ins).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Delete">
+      <param name="Local" value="table/table_erase.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table Eraser">
+        <param name="Local" value="table/table(eraser).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Delete Rows/Columns">
+        <param name="Local" value="table/table(del).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Merge Table">
+      <param name="Local" value="table/table(attach).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Merge Cells">
+      <param name="Local" value="table/table(merge).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Split Cells">
+      <param name="Local" value="table/table(divide).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Split Table">
+      <param name="Local" value="table/table(dividing).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Cell Border/Background">
+      <param name="Local" value="table/cellborder/cellborder.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Apply to Each Cell">
+        <param name="Local" value="table/cellborder/cellborder(each).htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cell Border/Background: Borders">
+          <param name="Local" value="table/cellborder/cellborder(border).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cell Border/Background: Background">
+          <param name="Local" value="table/cellborder/cellborder(background).htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cell Border/Background: Diagonal">
+          <param name="Local" value="table/cellborder/cellborder(diagonal).htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set as One Cell">
+        <param name="Local" value="table/cellborder/cellborder(many).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Table Border/Background">
+      <param name="Local" value="table/tableborder/tableborder.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table Border/Background: Borders">
+        <param name="Local" value="table/tableborder/tableborder(border).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Table Border/Background: Background">
+        <param name="Local" value="table/tableborder/tableborder(background).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Quick Tables">
+      <param name="Local" value="table/tablemadang/tablemadang.htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Distribute Columns">
+      <param name="Local" value="table/table(eqheight).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Distribute Rows">
+      <param name="Local" value="table/table(eqwidth).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Transpose Table">
+      <param name="Local" value="table/table(transform).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Convert to Text">
+      <param name="Local" value="table/table(to_text).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text to Table">
+      <param name="Local" value="table/table(to_table).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Sort">
+      <param name="Local" value="tools/sort/sort.htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Block Formula">
+      <param name="Local" value="table/blockcal/blockcal.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Quick Formula">
+      <param name="Local" value="table/easycal/easycal.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Horizontal Sum">
+        <param name="Local" value="table/easycal/easycal(horsum).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Sum">
+        <param name="Local" value="table/easycal/easycal(versum).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Horizontal Average">
+        <param name="Local" value="table/easycal/easycal(horavg).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Average">
+        <param name="Local" value="table/easycal/easycal(veravg).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Horizontal Product">
+        <param name="Local" value="table/easycal/easycal(horpro).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical Product">
+        <param name="Local" value="table/easycal/easycal(verpro).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Formula">
+      <param name="Local" value="table/calculation/calculation.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Inserting Formula">
+        <param name="Local" value="table/calculation/calculation(input).htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sheet Functions">
+        <param name="Local" value="table/calculation/calculation(function).htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Thousands Separator">
+      <param name="Local" value="table/table(threedigits).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Cell Block">
+      <param name="Local" value="table/table(cell).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Resizing Table">
+      <param name="Local" value="table/table(size).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Paste Cell">
+      <param name="Local" value="table/table(paste).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Hwp Shortcuts">
+    <param name="Local" value="view/toolbar/shortcut.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Shortcut Table">
+      <param name="Local" value="view/toolbar/shortcut(table).htm#642b3b9347ca42c9b00b820c00c373fa=1">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Hwp License">
+    <param name="Local" value="rights/rights.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="About Hancom Global Office Hwp">
+      <param name="Local" value="rights/rights(info).htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Customer Support Information">
+    <param name="Local" value="support/support(guide).htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customer Support Services">
+      <param name="Local" value="support/support(service).htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Data Compatibility Between Applications">
+      <param name="Local" value="support/compatibility.htm">
+    </object>
+    </ul>
+</ul>
+</html>

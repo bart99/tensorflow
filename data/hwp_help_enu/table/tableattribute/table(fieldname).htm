@@ -1,0 +1,106 @@
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+
+<script type="text/javascript" src="../../expcol.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>Field Name</title>
+<meta http-equiv="content-type" content="text/html; charset=ks_c_5601-1987">
+ 
+ <meta name="generator" content="Adobe RoboHelp 10">
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+<td width="99%" class="Bg02">
+<h1>Field Name</h1>
+</td>
+</tr>
+<tr>
+<td class="Bg03">&#160;</td>
+<td class="Bg04" align="right">
+<p class="ui-path">Table &gt; Table/Cell Properties</p>
+</td>
+</tr>
+</table>
+<p class="intro">You can assign names to cells so that external programs can read and write the Hwp document. By assigning field names, you can use the <b>Formula</b> feature more effectively.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Steps</h2>
+<h3>To assign field names</h3>
+<ol>
+<li>In the following table, place the cursor in the <b>Expenses for 2006</b> cell and click <a href="tableattribute.htm"><b>Table</b> &gt; <b>Table/Cell Properties</b></a>.
+<p class="img01"><img src="../../images/7t_tableattr(cell)_field_1.gif" border="0" alt=""></p>
+</li>
+<li>From the <b>Table/Cell Properties</b> dialog box, select the <b>Cell</b> tab and type a name for the cell in the <b>Field Name</b> field.
+<p class="bullet-list">For this example, type <b>EX</b> as the field name. Click <b>Set</b>.</p>
+</li>
+<li>Place the cursor in the <b>Expenses for 2007</b> cell, click <b>Table</b> &gt; <b>Properties</b>, and assign <b>EX</b> as the field name.</li>
+<li>Place the cursor in the <b>Total Expenses</b> cell, click <b>Table</b> &gt; <b>Properties</b>, and assign <b>SUM</b> as the field name.</li>
+<li>Place the cursor in the <b>Costs for 2006</b> cell, click <b>Table</b> &gt; <b>Properties</b>, and assign <b>CO</b> as the field name.</li>
+<li>In the same manner, assign <b>CO</b> as the field name for the <b>Costs for 2007</b> cell.</li>
+<li>Place the cursor in the <b>Total Costs</b> cell, click <b>Table</b> &gt; <b>Properties</b>, and assign <b>SUM</b> as the field name.</li>
+</ol>
+<h3>To insert a formula</h3>
+<ol>
+<li>Place the cursor in the <b>Total Expenses</b> cell and click <a href="../calculation/calculation.htm"><b>Table</b> &gt; <b>Formula</b></a>.</li>
+<li>From the <b>Formula</b> dialog box, enter <b>=SUM(ABOVE:EX)</b> in the <b>Formula</b> field to add all the values existing above the current cell.</li>
+<li>Click <b>OK</b>. <b>280</b> is entered automatically.
+<p class="img01"><img src="../../images/7t_tableattr(cell)_field_2.gif" border="0" alt=""></p>
+</li>
+<li>Place the cursor in the <b>Total Costs</b> cell, click <b>Table</b> &gt; <b>Formula</b>, type <b>=SUM(ABOVE:CO)</b> in the <b>Formula</b> field, and click <b>OK</b>. <b>190</b> is entered automatically.
+<p class="img01"><img src="../../images/7t_tableattr(cell)_field_3.gif" border="0" alt=""></p>
+</li>
+<li>Place the cursor in the <b>Grand Total</b> cell, click <b>Table</b> &gt; <b>Formula</b>, and type <b>=SUM(ALL:SUM)</b> in the <b>Formula</b> field to gain the sum of all fields with the name <b>SUM</b> from the current table.</li>
+<li>Click <b>OK</b>. <b>470</b> is entered automatically.
+<p class="img01"><img src="../../images/7t_tableattr(cell)_field_4.gif" border="0" alt=""></p>
+</li>
+</ol>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Note</h2>
+<h3>Same Field Names</h3>
+<p>A single table may contain multiple instances of the same field name, which can be designated in English or Korean.</p>
+<h3>To Use with Formula</h3>
+<p>To use field names in the <b>Formula</b> field, only the <b>Quick Selection</b> and <b>ALL</b> functions are supported. Type the Quick Selection or ALL function, a <b>colon (:)</b>, and then the field name.</p>
+<h3>ALL Function</h3>
+<p>Calculates all fields in the current table bearing the designated field name. For example, the <b>SUM(ALL:INCOME)</b> formula gains the sum of all cells with the name <b>INCOME</b> from the current table.</p>
+<h3>Quick Selection for Continuous Cell Range Only</h3>
+<p>Formulae that combine a <b>Quick Selection</b> function such as <b>LEFT</b>, <b>RIGHT</b>, <b>ABOVE</b>, and <b>BELOW</b> with a field name only calculate field names in continuation from the current cell.</p>
+<p>For example, typing <b>SUM(ABOVE:EX)</b> in the no.5 cell of the following table only calculates cells 3 and 4, which are continued from the current cell.</p>
+<div class="table02">
+<table border="0" cellspacing="1" cellpadding="2" bgcolor="black">
+<tr bgcolor="#FFFFFF">
+<td width="50" class="table_T_sub">&#160;</td>
+<td width="50" class="table_T_sub">1)EX</td>
+<td width="50" class="table_T_sub">&#160;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td class="table_T_sub">&#160;</td>
+<td class="table_T_sub">&#160;</td>
+<td class="table_T_sub">&#160;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td class="table_T_sub">&#160;</td>
+<td class="table_T_sub">3)EX</td>
+<td class="table_T_sub">&#160;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td class="table_T_sub">&#160;</td>
+<td class="table_T_sub">4)EX</td>
+<td class="table_T_sub">&#160;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td class="table_T_sub">&#160;</td>
+<td class="table_T_sub" bgcolor="#FFFF99">5)Current Cell</td>
+<td class="table_T_sub">&#160;</td>
+</tr>
+</table>
+</div>
+<h2><img src="../../images/dot.gif" border="0" alt=""> See Also</h2>
+<p class="related-link"><a href="tableattribute.htm">Table/Cell Properties</a>, <a href="table(cellattribute).htm">Table/Cell Properties: Cell</a>, <a href="../calculation/calculation.htm">Formula</a></p>
+<p class="footer"><a href="http://www.hancom.com/en" target="_blank">www.hancom.com/en</a></p>
+</body>
+</html>

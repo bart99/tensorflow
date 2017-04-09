@@ -1,0 +1,83 @@
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+
+<script type="text/javascript" src="../../expcol.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>Table AutoFill</title>
+<meta http-equiv="content-type" content="text/html; charset=ks_c_5601-1987">
+ 
+ <meta name="generator" content="Adobe RoboHelp 10">
+<style title="hcp" type="text/css">
+<!--
+li.hcp1 { list-style:none;
+display:inline; }
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+<td width="99%" class="Bg02">
+<h1>Table AutoFill</h1>
+</td>
+</tr>
+<tr>
+<td class="Bg03">&#160;</td>
+<td class="Bg04" align="right">
+<p class="ui-path">Insert &gt; Fill &gt; Table AutoFill</p>
+</td>
+</tr>
+</table>
+<p class="intro">This feature is used to analyze the rule of some cells of a table and automatically fill all selected cells in accordance to the rules.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Steps</h2>
+<ol>
+<li>Click <a href="../table.htm"><b>Insert</b> &gt; <b>Table</b> &gt; <b>Insert Table</b></a> and create a table containing 5 rows and 5 columns.</li>
+<li>In the first cell of the table, type <b>1</b>, press the TAB key to move the cursor to the second cell, and then type <b>2</b>.</li>
+<li>Set the entire table as a <a href="../table(cell).htm">cell block</a> and then click <b>Insert</b> &gt; <b>Fill</b> &gt; <b>Table AutoFill</b>.</li>
+<li>The empty cells beginning from the third cell, are automatically filled with a sequence of numbers ranging from 3 to 25.</li>
+</ol>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Note</h2>
+<h3>Fill Rule</h3>
+<p>The AutoFill rules are as follows:</p>
+<ul>
+<li>If multiple rows and columns are selected as a cell block, AutoFill is performed on the basis of the higher number of rows or columns. If there is an equal number of rows and columns in the block, AutoFill is performed on the rows first.</li>
+<li class="hcp1">
+<p class="table-list">&#160;&#160;EX) A block with 3 rows and 4 columns → Fill columns</p>
+<p>A block with 4 rows and 3 columns → Fill rows</p>
+<p>A block with 3 rows and 3 columns → Fill columns</p>
+</li>
+<li>You can fill all the selected cells in accordance with the rules. AutoFill first fills the empty cells in the first row or column, and if the first cell on the next row or column is empty, continues to fill the cells in the next row or column according to the rules specified in the previous row or column.</li>
+<li class="hcp1">
+<p class="img01"><img src="../../images/7t18_001.gif" border="0" alt=""></p>
+</li>
+<li>If there is an empty section in the middle of the cell block, AutoFill finds rules from cells preceding the first empty space and overwrites the other cells.</li>
+<li class="hcp1">
+<p class="img01"><img src="../../images/7t18_002.gif" border="0" alt=""></p>
+</li>
+<li>If only the first cell contains a number, AutoFill fills all other cells in the block with the same value.</li>
+<li>If there are numbers and characters, AutoFill fills the selected cells with an available match from the AutoFill list. If there is no match available in the list, and a numerical rule is identified, AutoFill fills the remaining cells according to the rule, but retains the characters before and after the number.</li>
+</ul>
+<h3>Repeat Fill</h3>
+<p>If there are no rules, AutoFill fills the entire cell block with the entered text strings. The properties (font, paragraph style, cell format, and line type) of the entered cell are applied to all the remaining cells.</p>
+<h3>No AutoFill</h3>
+<p>You cannot perform AutoFill if the first cell of the block is empty, if all the numbers of cells in the block do not match, and the block is not continuous.</p>
+<p class="img02"><img src="../../images/7t18_004.gif" border="0" alt=""></p>
+<h3>Adding Custom Data</h3>
+<p>You can add custom data to the AutoFill Content available by default.</p>
+<p>To add custom data, click <b>Insert</b> &gt; <b>Fill</b> &gt; <b>AutoFill Content</b>, and select the <b>Custom</b> tab from the <b>AutoFill Contents</b> dialog box.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Advanced Usage</h2>
+<h3>Create Label Template</h3>
+<p>To create a label template for printing multiple copies of identical content, use the <b>AutoFill</b> feature as follows:</p>
+<p>Click <a href="../../tools/label/label(label).htm"><b>Review</b> &gt; <b>Labels</b> &gt; <b>Create Label Template</b></a>, select a label paper, and type data into the first cell only. Select the labels to fill with the data, and click <b>Insert</b> &gt; <b>Fill</b> &gt; <b>Table AutoFill</b>.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> See Also</h2>
+<p class="related-link"><a href="table(autofill)_main.htm">Fill</a>, <a href="table(autofill_content).htm">AutoFill Content</a>, <a href="../table.htm">Insert Table</a>, <a href="../table(cell).htm">Cell Block</a>, <a href="table(autofill_content).htm">AutoFill Content</a>, <a href="../../tools/label/label(label).htm">Create Label Template</a></p>
+<p class="footer"><a href="http://www.hancom.com/en" target="_blank">www.hancom.com/en</a></p>
+</body>
+</html>

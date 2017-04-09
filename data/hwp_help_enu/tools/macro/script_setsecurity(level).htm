@@ -1,0 +1,161 @@
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+
+<script type="text/javascript" src="../../expcol.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>Script Macro Security Settings: Security Level</title>
+<meta http-equiv="content-type" content="text/html; charset=ks_c_5601-1987">
+ 
+ <meta name="generator" content="Adobe RoboHelp 10">
+<style title="hcp" type="text/css">
+<!--
+li.hcp1 { list-style:none;
+display:inline; }
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+<td width="99%" class="Bg02">
+<h1>Script Macro Security Settings: Security Level</h1>
+</td>
+</tr>
+<tr>
+<td class="Bg03">&#160;</td>
+<td class="Bg04" align="right">
+<p class="ui-path">View &gt; Macros &gt; Security Settings</p>
+</td>
+</tr>
+</table>
+<p class="intro">You can set the level of script macro security from the <b>Security Level</b> tab of the <b>Script Macro Security Settings</b> dialog box.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Steps</h2>
+<h3>To run macros at <b>Security Level</b> &gt; <b>Normal</b></h3>
+<ol>
+<li>Click <b>View</b> &gt; <b>Task Pane</b> &gt; <b>Script</b>.</li>
+<li>From the <b>Script</b> task pane, create a macro that contains object-creation syntax.
+<p class="bullet-list">As an example, add a macro that runs Hancom Cell in the script edit window as shown below:</p>
+<p>function OnDocument_New()<br>
+{<br>
+//todo :<br>
+var objname = "<strong><font color="#0000FF">HNexcel.Application</font></strong>";<br>
+var obj = new ActiveXObject(objname);<br>
+obj.Visible =1;<br>
+var msg = XHwpMessageBox;<br>
+msg.String = objname + " is visible?";<br>
+msg.DoModal();</p>
+<p>}</p>
+</li>
+<li>View &gt; Macros &gt; Security Settings</li>
+<li>From the <b>Script Macro Security Settings</b> dialog box, select the <b>Security Level</b> tab.</li>
+<li>Set the security level to <b>Normal</b> and then click <b>Set</b>.</li>
+<li>From the <b>Script</b> task pane, click on the <b>Run Script Macros</b> icon <img alt="" src="../../images/3v10_805.gif" border="0">.</li>
+<li>When the <b>Script Macro Security Warning</b> message displays, click <b>Register and Execute</b>.</li>
+<li>The macro that executes Hancom Cell is run, and the corresponding object is registered to the registry.</li>
+</ol>
+<p><img alt="" src="../../images/icon_refer.gif" border="0">&#160;&#160;&#160;You can check the list of registered objects in the <b>Registered Objects</b> tab of the <b>Script Macro Security Settings</b> dialog box.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> More Information</h2>
+<h4><b>Security Level</b> Tab of <b>Script Macro Security Settings</b> Dialog Box</h4>
+<h3>Very High</h3>
+<p>Does not allow macros to be run.</p>
+<p>You will view a <b>Script Macro Security Warning</b> message if you run a script macro after setting <b>Security Level</b> to <b>Very High</b>. This message will alert you that the security level is set to <b>Very High</b> and that the macro cannot be run. To run a macro, you should set security level as Normal or Low.</p>
+<h3>High</h3>
+<p>Prompts the user for confirmation before running a script macro that contains objection-creation syntax, even if the object has already been registered.</p>
+<p>If you run a script macro after setting <b>Security Level</b> to <b>High</b>, the macro will be handled as follows:</p>
+<ul>
+<li><strong>When running a macro without object creation parsing</strong></li>
+<li class="hcp1">
+<p class="bullet-list">A macro is run without asking whether to run it or not.</p>
+</li>
+<li><strong>When running a macro with object creation parsing</strong></li>
+<li class="hcp1">
+<ol>
+<li class="bullet-list"><strong>When an object not registered by the user is included</strong>
+<p class="bullet-list">A <b>Script Macro Security Warning</b> message appears, alerting you that the security level is set to <b>High</b> and the macro cannot be run because it contains an unregistered object. To run a macro, you should set security level as Normal or Low.</p>
+</li>
+<li class="bullet-list"><strong>When an object registered by the user is included</strong>
+<p class="bullet-list">A <b>Script Macro Security Warning</b> message appears, alerting you that the macro contains a registered object and creating it could lead to runtime of a virus. The user must then decide to allow or block the object-creation macro.</p>
+<p class="bullet-list">Object creation macros may contain a virus or other security threats and should be disabled before use.</p>
+<p class="bullet-list">You can check the list of registered objects in the Registered Objects tab of the Script Macro Security Settings dialog box.</p>
+<ul>
+<li class="bullet-list"><strong>Run Button</strong></li>
+<li class="hcp1">
+<p class="bullet-list">Run a macro without registering objects.</p>
+</li>
+<li class="bullet-list"><strong>Block Button</strong></li>
+<li class="hcp1">
+<p class="bullet-list">Disables all macros.</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3>Normal</h3>
+<p>Selectively prompts for user confirmation, depending on whether the script macro contains object-creation syntax and on whether the macro contains a registered object.</p>
+<p>If you run a script macro after setting <b>Security Level</b> to <b>Normal</b>, the macro will be handled as follows:</p>
+<ul>
+<li><strong>When running a macro without object creation parsing</strong></li>
+<li class="hcp1">
+<p class="bullet-list">A macro is run without asking whether to run it or not.</p>
+</li>
+<li><strong>When running a macro with object creation parsing</strong></li>
+<li class="hcp1">
+<ol>
+<li class="bullet-list"><strong>When an object not registered by the user is included</strong>
+<p class="bullet-list">A <b>Script Macro Security Warning</b> message is shown, alerting you that the macro contains an unregistered object and creating it could lead to runtime of a virus. The user must then decide to allow or block the object-creation macro or to allow it to run after registering it.</p>
+<p class="bullet-list">Object creation macros may contain a virus or other security threats and should be disabled before use.</p>
+<ul>
+<li class="bullet-list"><strong>Run Button</strong></li>
+<li class="hcp1">
+<p class="bullet-list">Run a macro without registering objects.</p>
+</li>
+<li class="bullet-list"><strong><b>Register and Execute</b> Button</strong></li>
+<li class="hcp1">
+<p class="bullet-list">Runs the macro without registering the object in the registry.</p>
+<p class="bullet-list">You can check the list of registered objects in the Registered Objects tab of the Script Macro Security Settings dialog box.</p>
+</li>
+<li class="bullet-list"><strong>Block Button</strong></li>
+<li class="hcp1">
+<p class="bullet-list">Disables all macros.</p>
+</li>
+</ul>
+</li>
+<li class="bullet-list"><strong>When an object registered by the user is included</strong>
+<p class="bullet-list">The macro is run immediately and without displaying a <b>Script Macro Security Warning</b> message.</p>
+<p class="bullet-list">You can check the list of registered objects in the Registered Objects tab of the Script Macro Security Settings dialog box.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3>Low (Not Recommended)</h3>
+<p>Allows all script macros to be run. Macros are run without prompting for your permission.</p>
+<p>Selecting this setting exposes the system to risk of infection from virus-containing macros. Only use this setting if you have suitable protection set in place.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Note</h2>
+<h3>Difference from Security Level</h3>
+<p>The macro may or may not be run, depending on the security level when a script macro containing syntax to create an object that has been registered by the user.</p>
+<ul>
+<li><strong><b>Security Level</b> is set to <b>Normal</b></strong></li>
+<li class="hcp1">
+<p class="bullet-list">Object-creation macros are allowed to run without displaying a <b>Script Macro Security Warning</b> message.</p>
+</li>
+<li><strong><b>Security Level</b> is set to <b>High</b></strong></li>
+<li class="hcp1">
+<p class="bullet-list">When a script macro that contains object-creation syntax is run, a <b>Script Macro Security Warning</b> message prompts for your confirmation even if the object is a registered one.</p>
+</li>
+</ul>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Caution</h2>
+<h3>Recommendation: Block Object-Creation Macros</h3>
+<p><span class="bullet-list">Object creation macros may contain a virus or other security threats and should be disabled before use.</span></p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> See Also</h2>
+<p class="related-link"><a href="script_setsecurity.htm">Script Macro Security Settings</a>, <a href="script_setsecurity(object).htm">Script Macro Security Settings: Registered Objects</a></p>
+<p class="footer"><a href="http://www.hancom.com/en" target="_blank">www.hancom.com/en</a></p>
+</body>
+</html>

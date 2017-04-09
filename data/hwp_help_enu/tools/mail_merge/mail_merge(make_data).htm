@@ -1,0 +1,85 @@
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+
+<script type="text/javascript" src="../../expcol.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>Mail Merge</title>
+<meta http-equiv="content-type" content="text/html; charset=ks_c_5601-1987">
+ 
+ <meta name="generator" content="Adobe RoboHelp 10">
+<style title="hcp" type="text/css">
+<!--
+li.hcp1 { list-style:none;
+display:inline; }
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+<td width="99%" class="Bg02">
+<h1>Creating Data File</h1>
+</td>
+</tr>
+<tr>
+<td class="Bg03">&#160;</td>
+<td class="Bg04" align="right">
+<p class="ui-path">Review &gt; Mail Merge</p>
+</td>
+</tr>
+</table>
+<p class="intro">To merge mail, you need to have a data file and a template file.</p>
+<p class="intro2">You can create a data file from Hwp or use records that have already been registered to the address book of Windows, a compiled dBASE III Plus (*.dbf) file, a Cell file (*.cell), a Nexcel file (*.nxl), or an Excel file (*.xls).</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Steps</h2>
+<h3>To create a data file from Hwp</h3>
+<ol>
+<li>Create an empty document window by clicking <a href="../../file/new.htm"><b>File</b> &gt; <b>New</b></a>.</li>
+<li>In the first line, type the number of fields, and then press ENTER to enter the field data for each type of record.
+<p class="bullet-list">For example, if a record consists of 3 fields (name, phone, and address), type <b>3</b> in the first line and then enter new records in groups of three lines. The field number for <b>Name</b> becomes <b>1</b>, <b>Phone</b> <b>2</b>, and <b>Address</b> <b>3</b>.</p>
+<p class="img01"><img src="../../images/6t_mail_merge_data1.gif" border="0" alt=""></p>
+</li>
+<li>Click <b>File</b> &gt; <b>Save</b> to save the data file.</li>
+</ol>
+<h3>To create a data file from Cell</h3>
+<ol>
+<li>Launch Hancom Cell, and enter the data.
+<p class="bullet-list"></p>
+<p class="img01"><img src="../../images/6t_mail_merge_data2.gif" border="0" alt=""></p>
+</li>
+<li>Click <b>File</b> &gt; <b>Save</b> to save the data file.</li>
+</ol>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Note</h2>
+<h3>Data File</h3>
+<p>A data file contains names, addresses, and other information about individuals. This data set is used to substitute fields in the template file.</p>
+<p>In Hwp, you can use Windows Address Book, Outlook Address Book, Hwp files (*.hwp), DBF files (*.dbf), Cell files (*.cell), Nexcel files (*.nxl), and Excel files (*.xls) as data files to merge mail.</p>
+<ul>
+<li><strong>Address Book</strong></li>
+<li class="hcp1">
+<p class="bullet-list">If you select Windows Address Book or Outlook Address Book as the data file, the data from the selected address book is retrieved automatically.</p>
+</li>
+<li><strong>Hwp File</strong></li>
+<li class="hcp1">
+<p class="bullet-list">If you are using a Hwp (*.hwp) file as the data file, the first line of the data file must contain a number indicating the total number of fields available in that data file.</p>
+<p class="bullet-list">For example, if you are creating a data file containing the fields <b>Name</b>, <b>Phone</b>, <b>Address</b>, and <b>Birthday</b>, you must enter <b>4</b> in the first line. Enter data from the second line. Press ENTER after each field entry.</p>
+<p class="bullet-list">A paragraph is recognized as a field, and records are identified by the number of paragraphs containing the number of fields identified in the first line of the data file. In other words, the number of paragraphs from the second line are the number of records.</p>
+</li>
+<li><strong>DBF, Cell, and Excel Files</strong></li>
+<li class="hcp1">
+<p class="bullet-list">If you are using a DBF (*.dbf), Cell (*.cell), Nexcel (*.nxl), or Excel (*.xls) file as the data file to merge with a template file, you must enter field numbers of the field names used in the data file when you perform <b>Mark</b> on the template file.</p>
+</li>
+</ul>
+<h2><img src="../../images/dot.gif" border="0" alt=""> Caution</h2>
+<h3>Restriction</h3>
+<p>If you are using a Hwp file as the data file, the number of fields in each record must remain consistent, even if you need to include empty lines. You must to ensure that a field does not exceed one line in the template file and the data file. <b>Mail Merge</b> treats each data file field as a single character and aligns the paragraphs. Therefore, it does not break fields that run over to the second line after being merged.</p>
+<h2><img src="../../images/dot.gif" border="0" alt=""> See Also</h2>
+<p class="related-link"><a href="mail_merge(mark).htm">Mark</a>, <a href="mail_merge(data).htm">Data Type</a>, <a href="mail_merge(output).htm">Output Direction</a>, <a href="../../file/print/print.htm">Print</a>, <a href="../../file/preview/preview.htm">Preview</a>, <a href="../../file/send_to_mail/send_to_mail.htm">Send</a>, <a href="mail_merge(make).htm">Start Mail Merge</a>, <a href="mail_merge(label).htm">Printing the Results of the Mail Merge</a></p>
+<p class="footer"><a href="http://www.hancom.com/en" target="_blank">www.hancom.com/en</a></p>
+</body>
+</html>
