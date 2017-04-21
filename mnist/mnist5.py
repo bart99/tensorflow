@@ -1,11 +1,21 @@
 # Convolutional Neural Net
+import os
+import sys
 import tensorflow as tf
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 
+tf.set_random_seed(777)  # reproducibility
+
 training_epochs = 15
 batch_size = 100
 test_size = 256
+
+load_dir = "data"
+load_name = os.path.join(load_dir, 'model.pkl')
+
+TRAIN = 0
+TEST = 1
 
 def init_weights(shape):
 	return tf.Variable(tf.random_normal(shape, stddev=0.01))
@@ -36,6 +46,11 @@ def model(X, w, w2, w3, w4, w_o, p_keep_conv, p_keep_hidden):
 
 	return pyx
 
+# argument
+mode = TRAIN
+if len(sys.argv) > 1 :
+	if sys.argv[1] == "test" :
+		mode = TEST;
 
 # data set loading
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
@@ -70,28 +85,41 @@ with tf.name_scope("predict"):
 
 # Launch the graph in a session
 
+
 # Initializing the variables
 init = tf.initialize_all_variables()
 
 with tf.Session() as sess:
 	sess.run(init)
 
-	train_writer = tf.summary.FileWriter('./summaries/', sess.graph)
+	saver = tf.train.Saver(tf.global_variables())
+	ckpt = tf.train.get_checkpoint_state(load_dir)
 
-	for i in range(training_epochs):
-		avg_cost = 0.
-		training_batch = zip(range(0, len(trX), batch_size), range(batch_size, len(trX)+1, batch_size))
+	if mode == TRAIN:
 
-		for start, end in training_batch:
-			sess.run(train_op, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})
-			avg_cost += sess.run(cost, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})/batch_size
-		print "Epoch:", '%04d' % (i+1), "cost=", "{:.9f}".format(avg_cost)
+		train_writer = tf.summary.FileWriter('./summaries/', sess.graph)
 
-	print "Optimization Finished!"
+		for i in range(training_epochs):
+			avg_cost = 0.
+			training_batch = zip(range(0, len(trX), batch_size), range(batch_size, len(trX)+1, batch_size))
 
-	test_indices = np.arange(len(teX))
-	np.random.shuffle(test_indices)
-	test_indices = test_indices[0:test_size]
+			for start, end in training_batch:
+				sess.run(train_op, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})
+				avg_cost += sess.run(cost, feed_dict={X: trX[start:end], Y: trY[start:end], p_keep_conv: 0.8, p_keep_hidden: 0.5})/batch_size
+			print "Epoch:", '%04d' % (i+1), "cost=", "{:.9f}".format(avg_cost)
 
-	print "Accuracy:", np.mean(np.argmax(teY[test_indices], axis=1) == sess.run(predict_op, feed_dict={X: teX[test_indices], p_keep_conv: 1.0, p_keep_hidden: 1.0}))
+		print "Optimization Finished!"
+
+
+		saver.save(sess, load_name)
+
+	else :
+		print (ckpt.model_checkpoint_path)
+		saver.restore(sess, ckpt.model_checkpoint_path)
+
+		test_indices = np.arange(len(teX))
+	#	np.random.shuffle(test_indices)
+	#	test_indices = test_indices[0:test_size]
+
+		print "Accuracy:", np.mean(np.argmax(teY[test_indices], axis=1) == sess.run(predict_op, feed_dict={X: teX[test_indices], p_keep_conv: 1.0, p_keep_hidden: 1.0}))
 
