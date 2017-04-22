@@ -112,14 +112,17 @@ with tf.Session() as sess:
 
 
 		saver.save(sess, load_name)
+		print "Model Saved!"
 
 	else :
 		print (ckpt.model_checkpoint_path)
 		saver.restore(sess, ckpt.model_checkpoint_path)
+		print "Model Loaded!"
 
-		test_indices = np.arange(len(teX))
+	#	문제의 코드....
+	#	test_indices = np.arange(test_size)
 	#	np.random.shuffle(test_indices)
 	#	test_indices = test_indices[0:test_size]
 
-		print "Accuracy:", np.mean(np.argmax(teY[test_indices], axis=1) == sess.run(predict_op, feed_dict={X: teX[test_indices], p_keep_conv: 1.0, p_keep_hidden: 1.0}))
+		print "Accuracy:", np.mean(np.argmax(teY, axis=1) == sess.run(predict_op, feed_dict={X: teX, p_keep_conv: 1.0, p_keep_hidden: 1.0}))
 
