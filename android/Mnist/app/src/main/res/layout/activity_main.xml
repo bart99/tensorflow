@@ -33,7 +33,7 @@
 
         <EditText
             android:id="@+id/editText"
-            android:layout_width="150dp"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/resizedImageView"
             android:layout_below="@+id/imageView"
@@ -57,6 +57,21 @@
             android:text="Clear"
             />
 
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_toRightOf="@+id/clearBtn"
+            android:text="Test"
+            />
+
+        <EditText
+            android:id="@+id/labelText"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:inputType="none" />
 
     </RelativeLayout>
 
