@@ -248,12 +248,15 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         int height = maxY - minY + 1;
 
         int size = width > height ? width : height;
-        size += 1;
 
         if (size == width) {
-            minY = (bitmap.getHeight() - size) / 2;
+            size += 1;
+            minY = minY - ((size - height) / 2);
+            minY = minY < 0 ? 0 : minY;
         } else {
-            minX = (bitmap.getWidth() - size) / 2;
+            size += 1;
+            minX = minX - ((size - width) / 2);
+            minX = minX < 0 ? 0 : minX;
         }
 
         return Bitmap.createBitmap(bitmap, minX, minY, size, size);
