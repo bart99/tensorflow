@@ -61,6 +61,9 @@ hypothesis = tf.add(tf.matmul(L5, W6), B6)
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
+# Test model
+correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
+
 # Initializing the variables
 init = tf.initialize_all_variables()
 
@@ -83,10 +86,10 @@ with tf.Session() as sess:
 		if epoch % display_step == 0:
 			print "Epoch:", '%04d' % (epoch+1), "cost=", "{:.9f}".format(avg_cost)
 
+
 	print "Optimization Finished!"
 
-	# Test model
-	correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
 	# Calculate accuracy
 	accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
-	print "Accuracy:", accuracy.eval({X: mnist.test.images, Y: mnist.test.labels, dropout_rate: 1})
+#	print "Train Data Accuracy:", accuracy.eval({X: mnist.train.images, Y: mnist.train.labels, dropout_rate: 1})
+	print "Test Data Accuracy:", accuracy.eval({X: mnist.test.images, Y: mnist.test.labels, dropout_rate: 1})
