@@ -13,26 +13,22 @@ batch_size = 100
 display_step = 1
 
 # set up model
-X = tf.placeholder(tf.float32, [None, 784])
-Y = tf.placeholder(tf.float32, [None, 10])
+X = tf.placeholder(tf.float32, [None, 784], name="input")
+Y = tf.placeholder(tf.float32, [None, 10], name="label")
 
-W = tf.Variable(tf.zeros([784, 10]))
-b = tf.Variable(tf.zeros([10]))
+W = tf.Variable(tf.zeros([784, 10]), name="weight")
+b = tf.Variable(tf.zeros([10]), name="bias")
 
 
-# cost function
-
-# y = tf.nn.softmax(tf.matmul(x, W) + b)
-# y_ = tf.placeholder(tf.float32, [None, 10])
-# cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1]))
-
-hypothesis = tf.matmul(X, W) + b
-
-# cost funcition
-cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
-
-# optimization algorithm
-optimizer = tf.train.GradientDescentOptimizer(0.5).minimize(cost)
+with tf.name_scope("model"):
+	with tf.name_scope("layer"):
+		hypothesis = tf.matmul(X, W) + b
+	# cost funcition
+	with tf.name_scope("cost_function"):
+		cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
+	# optimization algorithm
+	with tf.name_scope("optimizer"):
+		optimizer = tf.train.GradientDescentOptimizer(0.5).minimize(cost)
 
 
 # Initializing the variables
@@ -41,6 +37,9 @@ init = tf.initialize_all_variables()
 # Launch the graph
 with tf.Session() as sess:
 	sess.run(init)
+
+	# tensorboard summary write
+	train_writer = tf.summary.FileWriter('./summaries/mnist1/', sess.graph)
 
 	# Training cycle
 	for epoch in range(training_epochs):

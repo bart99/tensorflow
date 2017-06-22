@@ -21,8 +21,8 @@ batch_size = 100
 display_step = 1
 
 # tf Graph input
-X = tf.placeholder("float", [None, 784])
-Y = tf.placeholder("float", [None, 10])
+X = tf.placeholder("float", [None, 784], name="input")
+Y = tf.placeholder("float", [None, 10], name="label")
 
 # Store layers weight & bias
 W1 = tf.get_variable("W1", shape=[784, 256], initializer=xavier_init(784, 256))
@@ -32,34 +32,38 @@ W4 = tf.get_variable("W4", shape=[256, 256], initializer=xavier_init(256, 256))
 W5 = tf.get_variable("W5", shape=[256, 256], initializer=xavier_init(256, 256))
 W6 = tf.get_variable("W6", shape=[256, 10], initializer=xavier_init(256, 10))
 
-# W1 = tf.Variable(tf.random_normal([784, 256]))
-# W2 = tf.Variable(tf.random_normal([256, 256]))
-# W3 = tf.Variable(tf.random_normal([256, 10]))
-
-B1 = tf.Variable(tf.random_normal([256]))
-B2 = tf.Variable(tf.random_normal([256]))
-B3 = tf.Variable(tf.random_normal([256]))
-B4 = tf.Variable(tf.random_normal([256]))
-B5 = tf.Variable(tf.random_normal([256]))
-B6 = tf.Variable(tf.random_normal([10]))
+B1 = tf.Variable(tf.random_normal([256]), name="B!")
+B2 = tf.Variable(tf.random_normal([256]), name="B2")
+B3 = tf.Variable(tf.random_normal([256]), name="B3")
+B4 = tf.Variable(tf.random_normal([256]), name="B4")
+B5 = tf.Variable(tf.random_normal([256]), name="B5")
+B6 = tf.Variable(tf.random_normal([10]), name="B6")
 
 # Construct model
-dropout_rate = tf.placeholder("float")
-_L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
-L1 = tf.nn.dropout(_L1, dropout_rate)
-_L2 = tf.nn.relu(tf.add(tf.matmul(L1, W2), B2))
-L2 = tf.nn.dropout(_L2, dropout_rate)
-_L3 = tf.nn.relu(tf.add(tf.matmul(L2, W3), B3))
-L3 = tf.nn.dropout(_L3, dropout_rate)
-_L4 = tf.nn.relu(tf.add(tf.matmul(L3, W4), B4))
-L4 = tf.nn.dropout(_L4, dropout_rate)
-_L5 = tf.nn.relu(tf.add(tf.matmul(L4, W5), B5))
-L5 = tf.nn.dropout(_L5, dropout_rate)
-hypothesis = tf.add(tf.matmul(L5, W6), B6)
+with tf.name_scope("model"):
+	dropout_rate = tf.placeholder("float")
+	with tf.name_scope("input_layer"):
+		_L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
+		L1 = tf.nn.dropout(_L1, dropout_rate)
+	with tf.name_scope("hidden1"):
+		_L2 = tf.nn.relu(tf.add(tf.matmul(L1, W2), B2))
+		L2 = tf.nn.dropout(_L2, dropout_rate)
+	with tf.name_scope("hidden2"):
+		_L3 = tf.nn.relu(tf.add(tf.matmul(L2, W3), B3))
+		L3 = tf.nn.dropout(_L3, dropout_rate)
+	with tf.name_scope("hidden3"):
+		_L4 = tf.nn.relu(tf.add(tf.matmul(L3, W4), B4))
+		L4 = tf.nn.dropout(_L4, dropout_rate)
+	with tf.name_scope("output_layer"):
+		_L5 = tf.nn.relu(tf.add(tf.matmul(L4, W5), B5))
+		L5 = tf.nn.dropout(_L5, dropout_rate)
+		hypothesis = tf.add(tf.matmul(L5, W6), B6)
 
 # Define loss and optimizer
-cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
-optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
+with tf.name_scope("cost_function"):
+	cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
+with tf.name_scope("optimizer"):
+	optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
 # Test model
 correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
@@ -70,6 +74,9 @@ init = tf.initialize_all_variables()
 # Launch the graph
 with tf.Session() as sess:
 	sess.run(init)
+
+	#tensorboard summary write
+	train_writer = tf.summary.FileWriter('./summaries/mnist4/', sess.graph)
 
 	# Training cycle
 	for epoch in range(training_epochs):

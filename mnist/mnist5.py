@@ -12,7 +12,7 @@ batch_size = 100
 test_size = 256
 
 load_dir = "data"
-load_name = os.path.join(load_dir, 'model.pkl')
+load_name = os.path.join(load_dir, 'model.ckpt')
 
 TRAIN = 0
 TEST = 1
@@ -61,8 +61,8 @@ trX, trY, teX, teY = mnist.train.images, mnist.train.labels, mnist.test.images, 
 trX = trX.reshape(-1, 28, 28, 1)
 teX = teX.reshape(-1, 28, 28, 1)
 
-X = tf.placeholder("float", [None, 28, 28, 1])
-Y = tf.placeholder("float", [None, 10])
+X = tf.placeholder("float", [None, 28, 28, 1], name="input")
+Y = tf.placeholder("float", [None, 10], name="output")
 
 w = init_weights([3, 3, 1, 32])
 w2 = init_weights([3, 3, 32, 64])
@@ -70,8 +70,8 @@ w3 = init_weights([3, 3, 64, 128])
 w4 = init_weights([128 * 4 * 4, 625])
 w_o = init_weights([625, 10])
 
-p_keep_conv = tf.placeholder("float")
-p_keep_hidden = tf.placeholder("float")
+p_keep_conv = tf.placeholder("float", name="keep_conv")
+p_keep_hidden = tf.placeholder("float", name="keep_hidden")
 py_x = model(X, w, w2, w3, w4, w_o, p_keep_conv, p_keep_hidden)
 
 with tf.name_scope("cost"):
@@ -80,8 +80,7 @@ with tf.name_scope("cost"):
 with tf.name_scope("training"):
 	train_op = tf.train.RMSPropOptimizer(0.001, 0.9).minimize(cost)
 
-with tf.name_scope("predict"):
-	predict_op = tf.argmax(py_x, 1)
+predict_op = tf.cast(tf.argmax(py_x, 1), tf.int32, name="predict_op")
 
 # Launch the graph in a session
 
@@ -114,12 +113,15 @@ with tf.Session() as sess:
 		saver.save(sess, load_name)
 		print "Model Saved!"
 
+		tf.train.write_graph(sess.graph_def, load_dir, 'trained.pb', as_text=False)
+		tf.train.write_graph(sess.graph_def, load_dir, 'trained.txt', as_text=True)
+		print "Graph Saved!"
+
 	else :
 		print (ckpt.model_checkpoint_path)
 		saver.restore(sess, ckpt.model_checkpoint_path)
 		print "Model Loaded!"
 
-	#	문제의 코드....
 	#	test_indices = np.arange(test_size)
 	#	np.random.shuffle(test_indices)
 	#	test_indices = test_indices[0:test_size]

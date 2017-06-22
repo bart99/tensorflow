@@ -14,26 +14,33 @@ batch_size = 100
 display_step = 1
 
 # tf Graph input
-X = tf.placeholder("float", [None, 784])
-Y = tf.placeholder("float", [None, 10])
+X = tf.placeholder("float", [None, 784], name="input")
+Y = tf.placeholder("float", [None, 10], name="label")
 
 # Store layers weight & bias
-W1 = tf.Variable(tf.random_normal([784, 256]))
-W2 = tf.Variable(tf.random_normal([256, 256]))
-W3 = tf.Variable(tf.random_normal([256, 10]))
+W1 = tf.Variable(tf.random_normal([784, 256]), name="W1")
+W2 = tf.Variable(tf.random_normal([256, 256]), name="W2")
+W3 = tf.Variable(tf.random_normal([256, 10]), name="W3")
 
-B1 = tf.Variable(tf.random_normal([256]))
-B2 = tf.Variable(tf.random_normal([256]))
-B3 = tf.Variable(tf.random_normal([10]))
+B1 = tf.Variable(tf.random_normal([256]), name="B1")
+B2 = tf.Variable(tf.random_normal([256]), name="B2")
+B3 = tf.Variable(tf.random_normal([10]), name="B3")
 
 # Construct model
-L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
-L2 = tf.nn.relu(tf.add(tf.matmul(L1, W2), B2))
-hypothesis = tf.add(tf.matmul(L2, W3), B3)
+with tf.name_scope("model"):
+	with tf.name_scope("input_layer"):
+		L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
+	with tf.name_scope("hidden_layer"):
+		L2 = tf.nn.relu(tf.add(tf.matmul(L1, W2), B2))
+	with tf.name_scope("output_layer"):
+		hypothesis = tf.add(tf.matmul(L2, W3), B3)
 
 # Define loss and optimizer
-cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
-optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
+with tf.name_scope("cost_function"):
+	cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
+
+with tf.name_scope("optimizer"):
+	optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
 # Initializing the variables
 init = tf.initialize_all_variables()
@@ -41,6 +48,9 @@ init = tf.initialize_all_variables()
 # Launch the graph
 with tf.Session() as sess:
 	sess.run(init)
+
+	#tensorboard summary write
+	train_writer = tf.summary.FileWriter('./summaries/mnist2/', sess.graph)
 
 	# Training cycle
 	for epoch in range(training_epochs):
