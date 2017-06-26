@@ -32,7 +32,7 @@ W4 = tf.get_variable("W4", shape=[256, 256], initializer=xavier_init(256, 256))
 W5 = tf.get_variable("W5", shape=[256, 256], initializer=xavier_init(256, 256))
 W6 = tf.get_variable("W6", shape=[256, 10], initializer=xavier_init(256, 10))
 
-B1 = tf.Variable(tf.random_normal([256]), name="B!")
+B1 = tf.Variable(tf.random_normal([256]), name="B1")
 B2 = tf.Variable(tf.random_normal([256]), name="B2")
 B3 = tf.Variable(tf.random_normal([256]), name="B3")
 B4 = tf.Variable(tf.random_normal([256]), name="B4")
@@ -65,6 +65,8 @@ with tf.name_scope("cost_function"):
 with tf.name_scope("optimizer"):
 	optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
+tf.summary.scalar('cost', cost)
+
 # Test model
 correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
 
@@ -77,6 +79,8 @@ with tf.Session() as sess:
 
 	#tensorboard summary write
 	train_writer = tf.summary.FileWriter('./summaries/mnist4/', sess.graph)
+	summary_op = tf.summary.merge_all()
+	summary_step = 0
 
 	# Training cycle
 	for epoch in range(training_epochs):
@@ -89,6 +93,15 @@ with tf.Session() as sess:
 			sess.run(optimizer, feed_dict={X: batch_xs, Y: batch_ys, dropout_rate: 0.7})
 			# Compute average loss
 			avg_cost += sess.run(cost, feed_dict={X: batch_xs, Y: batch_ys, dropout_rate: 0.7})/total_batch
+
+			# summary write
+			if summary_step % 100 == 0 :
+				result = sess.run(summary_op, feed_dict={X:mnist.train.images, Y:mnist.train.labels, dropout_rate: 0.7})
+				summary_str = result
+				train_writer.add_summary(summary_str, summary_step)
+
+			summary_step += 1
+
 		# Display logs per epoch step
 		if epoch % display_step == 0:
 			print "Epoch:", '%04d' % (epoch+1), "cost=", "{:.9f}".format(avg_cost)
@@ -98,5 +111,5 @@ with tf.Session() as sess:
 
 	# Calculate accuracy
 	accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
-#	print "Train Data Accuracy:", accuracy.eval({X: mnist.train.images, Y: mnist.train.labels, dropout_rate: 1})
-	print "Test Data Accuracy:", accuracy.eval({X: mnist.test.images, Y: mnist.test.labels, dropout_rate: 1})
+	print "Train Accuracy:", accuracy.eval({X: mnist.train.images, Y: mnist.train.labels, dropout_rate: 1})
+	print "Test Accuracy:", accuracy.eval({X: mnist.test.images, Y: mnist.test.labels, dropout_rate: 1})
