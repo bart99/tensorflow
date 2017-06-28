@@ -21,18 +21,17 @@ b = tf.Variable(tf.zeros([10]), name="bias")
 
 
 with tf.name_scope("model"):
-	with tf.name_scope("layer"):
-		hypothesis = tf.matmul(X, W) + b
+	hypothesis = tf.matmul(X, W) + b
 
-	# cost funcition
-	with tf.name_scope("cost_function"):
-		cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
+# cost funcition
+with tf.name_scope("cost_function"):
+	cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=hypothesis))
 
-	tf.summary.scalar('cost', cost)
+tf.summary.scalar('cost', cost)
 
-	# optimization algorithm
-	with tf.name_scope("optimizer"):
-		optimizer = tf.train.GradientDescentOptimizer(0.5).minimize(cost)
+# optimization algorithm
+with tf.name_scope("optimizer"):
+	optimizer = tf.train.GradientDescentOptimizer(0.5).minimize(cost)
 
 
 # Initializing the variables
